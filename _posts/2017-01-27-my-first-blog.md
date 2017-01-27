@@ -8,19 +8,22 @@ excerpt: 'Hello, This is my first blog on React-Native'
 This blog includes how I did app using React-Native.
 
 >> I learned basics of ES6/7 which includes block variables, destructuring, template strings, arrow functions, spread operator, Promise, for-of, classes, modules, async/await functions
-I included few sites which explained es6 better,
-[ES6 features][lukehoban]
-[explore es6][core-features]
-[es6 & beyond][es6-beyond]
-[Async Await][async-await]
-Use Online editor to test any es6/7 feature
-[es6 online editor][es6-editor]
 
->> I learned ReactJS[reactjs] basics, it does not take more time to understand. Then I checked redux. Dan abramov's redux tutorial videos [egghead.io][egghead]
+  I included few sites which explained es6 better,
+
+  [ES6 features][lukehoban]
+  [explore es6][core-features]
+  [es6 & beyond][es6-beyond]
+  [Async Await][async-await]
+  Use Online editor to test any es6/7 feature
+  [es6 online editor][es6-editor]
+
+>> I learned [ReactJS][reactjs] basics, it does not take more time to understand. Then I checked redux. Dan abramov's redux tutorial videos [egghead.io][egghead]
 
 >> As you know, React uses one way data flow and has component architecture(i.e., every UI block is treated as component).
 
 >> Tips from my experience,
+
    >> Extend React.Component instead of React.createClass
    >> Use async operations inside componentDidMount method
    >> Create two separate folders one for containers(higher order components which includes async operations) and other for simple components(common simple components like button, alert, layout, header etc.). Check the difference in [presentational vs container components][presentaional-container].
@@ -30,10 +33,12 @@ Use Online editor to test any es6/7 feature
       ++ Reducer method, which returns current state
 
 >> I learned [Immutable JS][immutable-js] map, setIn, getIn, Record, List etc.
+
   >> Redux uses single state object through out the app. When we want to do any modification on any property, we take the existing object, create the new state (using existing object) and add the new properties.
   >> Every-time we return new state on any property changes
 
 >> Then I picked React-Native and checked the [difference][difference] with ReactJS. I have seen many youtube videos & blogs to understand react-native.
+
   >> Important things to remember on React-native
     ++ It is purely a javascript framework, when we build the project, compiler will convert Javascript code into native code(we can select the build platform).
     ++ We use `View`, `Text` in place of block and inline elements
