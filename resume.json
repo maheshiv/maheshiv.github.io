@@ -7,19 +7,7 @@
     "phone": "+91-8951152660",
     "website": "http://maheshiv.github.io",
     "summary": "6+ years of experience as a software engineer and majorly worked on Javascript",
-    "location": {
-      "address": "Indiranagar",
-      "postalCode": "560038",
-      "city": "Bangalore",
-      "countryCode": "IN",
-      "region": "Karnataka"
-    },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "LSMahesh",
-        "url": ""
-      },
       {
         "network": "LinkedIn",
         "username": "maheshivanna",
@@ -34,6 +22,11 @@
         "network": "Stackoverflow",
         "username": "maheshiv",
         "url": "http://stackoverflow.com/users/2494525/maheshiv"
+      },
+      {
+        "network": "Twitter",
+        "username": "LSMahesh",
+        "url": ""
       }
     ]
   },
@@ -44,7 +37,7 @@
       "website": "https://www.afternow.io/",
       "startDate": "2013-06-03",
       "endDate": "",
-      "summary": "AfterNow company uses latest technologies AR/VR/MR, IOT, Javascript. They do both service and product development. They have Microsoft, Hyperlense, Disney, YogaGlo clients. ",
+      "summary": "Working in AfterNow is tremendous. We use technologies like AR/VR/MR, IOT, Javascript frameworks. Currently we are working for top established names like Microsoft, Hyperloop, Yogaglo.",
       "highlights": [
         "Implemented adaptive streaming into the video player and wrote script to transcode videos",
         "Solved many technical issues and improved performance of the application"
@@ -56,7 +49,7 @@
       "website": "",
       "startDate": "2010-10-14",
       "endDate": "2013-05-01",
-      "summary": "It's a service based startup with good working environment. They do both web and mobile projects, mainly they work on e-governance projects. It's now closed due to some management conflicts.",
+      "summary": "It is a service based startup with good working environment. We did both web and mobile applications using open source languages like PHP, Javascript, HTML5, CSS3, JQuery, NODE.JS, Phonegap etc.. It's now closed due to some management conflicts.",
       "highlights": [
         "Worked as an full stack developer , involved in end to end application development",
         "Lent a hand in other projects for writing procedures, fixing backend and front end issues"
@@ -68,41 +61,41 @@
     "position": "Full-Stack Javascript Programmer",
     "website": "https://teachertraining.yogaglo.com",
     "startDate": "2014-06-01",
-    "endDate": "2015-10-01",
-    "summary": "It is an online platform to teach yoga for those who want to become yoga teachers, for all devices. Worked on integrating cuepoints, markers to the video player, file-upload, discussion, assignment, quiz, dashboard etc.",
+    "endDate": "Present",
+    "summary": "Yoga teacher-training is an online platform to teach yoga for those who want to become yoga teachers, for all devices. Worked on integrating cuepoints, markers to the video player, file-upload, discussion, assignment, quiz, dashboard etc.",
     "highlights": [
-      "Used best technologies",
+      "Used EmberJS, ExpressJS, Sequelize, MySQL",
       "Worked from scratch, fixed many performance issues."
     ]
   }, {
-    "organization": "AfterNow",
-    "position": "Full-Stack Javascript Programmer",
+    "organization": "",
+    "position": "",
     "website": "",
-    "startDate": "2016-01-01",
-    "endDate": "2016-10-11",
-    "summary": "This e-governance mobile project mainly deals with reporting and resolving grievances in Users locality. It is map based application where user can upvote and share the grievance. Currently it is in beta stage.",
+    "startDate": "",
+    "endDate": "",
+    "summary": "Grievances is an e-governance mobile project mainly deals with reporting and resolving grievances in Users locality. It is map based application where user can upvote and share the grievance. Currently it is in beta stage.",
     "highlights": [
       "Worked from scratch. Used React-Native, HAPIJS.",
       "Did 80% of the work from DB design to app development"
     ]
   }, {
     "organization": "Myshore IT Solutions",
-    "position": "Full-Stack Developer",
+    "position": "",
     "website": "FendMe",
-    "startDate": "2011-10-01",
-    "endDate": "2012-02-03",
-    "summary": "It is an chat application for android, ios, windows devices. I was involved in the complete application development.",
+    "startDate": "2011-01-01",
+    "endDate": "2013-05-01",
+    "summary": "FendMe is an chat application for android, ios, windows devices. I was involved in the complete application development.",
     "highlights": [
       "It is an hybrib mobile app. Technology used for this app Phonegap, Jquery-Mobile, MySql, HTML5, CSS3, Javascript, PHP",
       "Worked mainly on the DB and PHP"
     ]
   }, {
-    "organization": "Myshore IT Solutions",
-    "position": "Full-Stack Developer",
+    "organization": "",
+    "position": "",
     "website": "Issue Tracking System ",
-    "startDate": "2011-02-01",
-    "endDate": "2011-08-03",
-    "summary": "It is an internal e-governance issue tracking application for Nemmadi kiosks. Worked on designing database, UI templates etc. Helped in solving UI issues .",
+    "startDate": "",
+    "endDate": "",
+    "summary": "Issue tracking system is an internal e-governance issue tracking application for Nemmadi kiosks. Worked on designing database, UI templates etc. Helped in solving UI issues .",
     "highlights": [
       "Technologies used for this application Javascript, HTML5, CSS3, My-SQL, PHP, jQuery",
       "Worked on DB and front end"
