@@ -1,23 +1,20 @@
 <!-- Footer -->
   <footer id="footer">
     <ul class="icons">
-      {% if site.cv %}
-      <li><a href="{{site.url}}/{{ site.cv }}" class="icon fa-file"><span class="label">Resume</span></a></li>
-      {% endif %}
       {% if site.aboutme %}
       <li><a href="https://about.me/{{ site.aboutme }}" class="icon fa-id-card"><span class="label">About me</span></a></li>
       {% endif %}
       {% if site.linkedin_username %}
       <li><a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
       {% endif %}
-      {% if site.twitter_username %}
-      <li><a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-      {% endif %}
       {% if site.github_username %}
       <li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github"><span class="label">Github</span></a></li>
       {% endif %}
       {% if site.stackoverflow %}
       <li><a href="http://stackoverflow.com/users/2494525/{{ site.stackoverflow }}" class="icon fa-stack-overflow"><span class="label">Stackoverflow</span></a></li>
+      {% endif %}
+      {% if site.twitter_username %}
+      <li><a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
       {% endif %}
       {% if site.email %}
       <li><a href="mailto:{{ site.email }}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
