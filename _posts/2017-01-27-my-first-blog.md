@@ -5,7 +5,7 @@ categories: React-Native
 excerpt: 'Hello, This is my first blog on React-Native. Click on the header to know how I created a mobile app. Feel free to add any inputs.'
 ---
 
-This blog includes how I dis an app using React-Native and steps I followed to do so.
+This blog includes how I did an app using React-Native and steps I followed to do so.
 
 >> I learned basics of ES6/7 which includes block variables, destructuring, template strings, arrow functions, spread operator, Promise, for-of, classes, modules, async/await functions  
 
@@ -28,7 +28,7 @@ This blog includes how I dis an app using React-Native and steps I followed to d
      I use `View`, `Text` in place of block and inline elements.  
      I can use condition like Platform.OS to identify whether IOS/Android.   
 
->> I researched boilerplates on react-native. I found [React-Native Snowflake][snowflake] which is very promising and well structured. It uses redux for state management and also they have separate snowflake server project which uses HAPIJS/Parse.
+>> I researched boilerplates on react-native. I found [React-Native Snowflake][snowflake] which is very promising and well structured. It uses redux for state management and also they have separate snowflake server project which uses HAPIJS/Parse.  
   >> New libraries used :- Immutable-js, Redux
 
 >> I learned [Immutable JS][immutable-js] map, setIn, getIn, Record, List etc.  
