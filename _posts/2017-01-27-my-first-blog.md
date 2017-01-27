@@ -2,10 +2,10 @@
 layout: post
 title:  "From zero to React-Native app development"
 categories: React-Native
-excerpt: 'Hello, This is my first blog on React-Native. Click on the header to know how I created an mobile app. Feel free to add any inputs.'
+excerpt: 'Hello, This is my first blog on React-Native. Click on the header to know how I created a mobile app. Feel free to add any inputs.'
 ---
 
-This blog includes how I did app using React-Native.
+This blog includes how I dis an app using React-Native and steps I followed to do so.
 
 >> I learned basics of ES6/7 which includes block variables, destructuring, template strings, arrow functions, spread operator, Promise, for-of, classes, modules, async/await functions  
 
@@ -17,38 +17,39 @@ This blog includes how I did app using React-Native.
     Use Online editor to test any es6/7 feature  
     [es6 online editor][es6-editor]  
 
->> I learned [ReactJS][reactjs] basics, it does not take more time to understand. Then I checked Dan abramov's redux tutorial videos [egghead.io][egghead]  
+>> Learn [ReactJS][reactjs] basics as it won't take long. Checkout Dan abramov's redux videos [egghead.io][egghead]  
 
->> As you know, React uses one way data flow and has component architecture(i.e., every UI block is treated as component).  
+>> As you know, React uses one way data flow and has component architecture(i.e., every UI block is treated as a component).  
+
+>> Then I picked React-Native and checked the [difference][difference] with ReactJS. I have seen many youtube videos & blogs to understand react-native.  
+
+  >> Important things to remember on React-native  
+     It is purely a javascript framework, when I build the project(es6/es7 will be converted to es5), UI components will be converted to native code and other Javascript code will run on the device javascript core (I can select the build platform). [More Info][more-info]
+     I use `View`, `Text` in place of block and inline elements.  
+     I can use condition like Platform.OS to identify whether IOS/Android.   
+
+>> I researched boilerplates on react-native. I found [React-Native Snowflake][snowflake] which is very promising and well structured. It uses redux for state management and also they have separate snowflake server project which uses HAPIJS/Parse.
+  >> New libraries used :- Immutable-js, Redux
+
+>> I learned [Immutable JS][immutable-js] map, setIn, getIn, Record, List etc.  
+
+>> Redux uses single state object through out the app. When I want to do any modification on any property, I take the existing object, create the new state and add the new properties.  
+>> Every-time I return new state on any property changes.
 
 >> Tips from my experience,  
    >> Extend React.Component instead of React.createClass  
    >> Use async operations inside componentDidMount method  
-   >> Create two separate folders one for containers(higher order components which includes async operations) and other for simple components(common simple components like button, alert, layout, header etc.). Check the difference in [presentational vs container components][presentaional-container].  
+   >> Create two separate folders one for containers(higher order components which includes async operations) and other for simple components(commonly used components like button, alert, layout, header etc.). Check the difference in [presentational vs container components][presentaional-container].  
    >> Redux has three concepts,  
       >> Action(It is a function which returns object which includes reducer method name and payload)  
       >> Dispatch (to dispatch an action i.e., to call an action which in-turn calls reducer method)  
       >> Reducer method, which returns current state  
 
->> I learned [Immutable JS][immutable-js] map, setIn, getIn, Record, List etc.  
-
-  >> Redux uses single state object through out the app. When we want to do any modification on any property, we take the existing object, create the new state (using existing object) and add the new properties.  
-  >> Every-time we return new state on any property changes.
-
->> Then I picked React-Native and checked the [difference][difference] with ReactJS. I have seen many youtube videos & blogs to understand react-native.  
-
-  >> Important things to remember on React-native  
-     It is purely a javascript framework, when we build the project, compiler will convert Javascript code into native code(we can select the build platform).  
-     We use `View`, `Text` in place of block and inline elements.  
-     We can use condition like Platform.OS to identify whether IOS/Android.  
-
->> I researched boilerplates on react-native. I found [React-Native Snowflake][snowflake] which is very promising and well structured. It uses redux for state management and also they have separate snowflake server project which uses HAPIJS/Parse.  
-
 >> For designing components, I looked for existing node modules. I found [native base][native-base] which has many UI components.  
 
->> I understand snowflake project structure on client and server and develop the app in two months.  
+>> From my experience, understand the concepts and then start doing.  
 
->> From my experience, understand the concepts and start doing.  
+>> Finally I have to say thanks to my friends Darshan, Santhosh for there valuable suggestions. Without them it could not be possible.
 
 
 [difference]: https://medium.com/@alexmngn/from-reactjs-to-react-native-what-are-the-main-differences-between-both-d6e8e88ebf24#.ls6zapbqo
@@ -63,3 +64,4 @@ This blog includes how I did app using React-Native.
 [immutable-js]: https://facebook.github.io/immutable-js/
 [snowflake]: https://github.com/bartonhammond/snowflake
 [native-base]: http://nativebase.io/
+[more-info]: https://medium.com/@shaheenghiassy/react-native-s-execution-context-d63e5d4930f4#.tzj40ma53
