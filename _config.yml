@@ -1,22 +1,21 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Mahesh Shivanna
-email: maheshivanna@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://maheshiv.github.io" # the base hostname & protocol for your site
+description: >
+  This is my personal website made with love
+sass:
+  sass_dir: assets/sass
+url: http://maheshiv.github.io
+disqus_shortname: disqus_oIcR0XrguT
+phone_no: 8951152660
 twitter_username: LSMahesh
+linkedin_username: maheshivanna
+cv: maheshivanna
+stackoverflow: maheshiv
+instagram_username:
+pinterest_username:
+flickr_username:
 github_username:  maheshiv
-phone_number: 8951152660
-linkedin: maheshivanna
-# Build settings
-markdown: kramdown
+feed_icon: rss
+email: maheshivanna@gmail.com
+gems: [jekyll-paginate]
+paginate_path: "/page/:num/"
+paginate: 5

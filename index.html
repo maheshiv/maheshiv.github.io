@@ -1,169 +1,29 @@
 ---
 layout: default
+image: /images/fulls/01.jpg
 ---
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <section>
+    <h2><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h2>
+    <p>
+      <span><i class="fa fa-calendar"></i> {{ post.date | date: "%d %B %Y" }}{% if post.categories %} on <i class="fa fa-tags"></i> {{ post.categories | join: ', ' }}{% endif %}</span>
+    </p>
+    <div>
+      {{ post.excerpt }}
+    </div>
+  </section>
+{% endfor %}
 
-<div class="home">
-<!--
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-  <ul class="prof-content flex-col">
-    <li>
-      <h3 class="head-h3"> Professional Summary </h3>
-      <ul>
-        <li>
-          5.5 years of experience as a software engineer and currently working in Read Ink Technologies as a Javascript programmer .
-        </li>
-      </ul>
-    </li>
-    <li>
-      <h3>Skills</h3>
-      <div>
-        <ul>
-          <li>
-            HTML5, CSS3, Javascript, PHP, NodeJS, Websockets, Linux, MySQL, MongoDB
-          </li>
-          <li>
-            EmberJS, Sequelize, Jquery, Socket.io, NPM, Bower, GruntJS, Broccoli, SCSS, Mocha, Qunit, Chrome dev tools, React-JS, React-Native, GraphQL, Relay, Mongoose
-          </li>
-          <li>
-            Git, Kanban agile methodology
-          </li>
-        </ul>
-      </div>
-    </li>
-    <li>
-      <h3>
-        Education
-      </h3>
-      <ul class="flex-row sp-btn">
-        <li>
-          Bachelor’s in Mechanical Engineering with <strong>76 %</strong>, BCE, VTU
-        </li>
-        <li>
-          2006-2010
-        </li>
-      </ul>
-    </li>
-    <li>
-      <h3> Professional Experience </h3>
-      <ul>
-        <li class="companies">
-          <div class="flex-row sp-btn">
-            <h3>Read Ink Technologies</h3>
-            <h3>06-2013 to till date</h3>
-          </div>
-        </li>
-        <li>
-          <ul class="flex-col">
-            <li>
-              Working as a full stack Javascript developer, solved many technical issues and improved performance of the application
-            </li>
-            <li>
-              Implemented adaptive streaming into the video player and wrote script to transcode videos. Helped out in other company projects like Fitnessglo, Gishwhes
-            </li>
-            <li>
-              Implemented new technologies in projects and also helped deploying them
-            </li>
-            <li class="projects">
-              <h3>Yogaglo Cross Devices</h3>
-              <ul class="flex-col">
-
-                <li>
-                  It is an online platform to learn yoga for all devices .  Worked on features like video player, queue, calender, favorites, posts-comments etc.
-                </li>
-                <li>
-                  Technologies :- EmberJS, Ember-data, Htmlbars, CSS3, HTML5, GruntJS, NPM, Bower, Yeoman
-                </li>
-              </ul>
-            </li>
-            <li class="projects">
-              <h3>Teacher Training</h3>
-              <ul>
-                <li>
-                  It is an online platform to teach yoga for those who want to become yoga teachers, for all devices. Worked on integrating cuepoints, markers to the video player, file-upload, discussion, assignment, quiz, dashboard etc.
-                </li>
-                <li>
-                  Technologies :- EmberJS, ExpressJS, Sequelize, NodeJS, Ember-data, Htmlbars, SCSS, HTML5, GruntJS, Mocha, Ember-Qunit, Ember-cli, Redis
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-
-        <li class="companies">
-          <div class="flex-row sp-btn">
-            <h3>Myshore IT Solutions</h3>
-            <h3>10-2010 to 05-2013</h3>
-          </div>
-        </li>
-        <li>
-          <ul class="flex-col">
-            <li>
-              Worked as an full stack developer , involved in end to end application development
-            </li>
-            <li>
-              Lent a hand in other projects for writing procedures, fixing backend and front end issues
-            </li>
-            <li class="projects">
-              <h3>KDOL & KSOU</h3>
-              <ul class="flex-col">
-                <li>
-                  Karnataka Department Of Labour Insurance(KDOL) - is an program launched by state government to provide health insurance for unauthorized private vehicle drivers . We have developed and maintained online platform of this program . Worked on database designing, report generation, application creation etc
-                </li>
-                <li>
-                  Karnataka State Open University (KSOU) - is an platform to apply for distance education.
-                </li>
-                <li>
-                  Technologies :- Twitter bootstrap, Javascript, My-SQL, PHP, CSS3, HTML5
-                </li>
-              </ul>
-            </li>
-            <li class="projects">
-              <h3>FendMe</h3>
-              <ul>
-
-                <li>
-                  It is an chat application for android, ios, windows devices. I was involved in the complete application development
-                </li>
-                <li>
-                  Technologies :- jQuery mobile, phonegap, My-SQL, HTML5, CSS3, Javascript, PHP
-                </li>
-              </ul>
-            </li>
-            <li class="projects">
-              <h3>Issue Tracking System</h3>
-              <ul>
-                <li>
-                  It is an e-governance issue tracking application for Nemmadi kiosks. Worked on designing database, UI templates etc. Helped in solving UI issues
-                </li>
-                <li>
-                  Technologies :- Javascript, HTML5, CSS3, My-SQL, PHP, jQuery
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-
-      </ul>
-    </li>
-    <li>
-      <h3>Interests</h3>
-      <article>
-        Javascript, Websockets, NodeJS, ES6, WebGL, Machine learning, Virtual reality, React-native, Evolving technologies, Current affairs
-      </article>
-    </li>
-  </ul>
-</div>
+{% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
+<section>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">Previous</a>
+  {% endif %}
+  <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  {% endif %}
+</section>
+{% endif %}

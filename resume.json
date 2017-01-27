@@ -1,0 +1,173 @@
+{
+  "basics": {
+    "name": "Mahesh Shivanna",
+    "label": "Javascript Programmer",
+    "picture": "http://maheshiv.github.io/images/avatar.jpg",
+    "email": "maheshivanna@gmail.com",
+    "phone": "+91-8951152660",
+    "website": "http://maheshiv.github.io",
+    "summary": "6+ years of experience as a software engineer and majorly worked on Javascript",
+    "location": {
+      "address": "Indiranagar",
+      "postalCode": "560038",
+      "city": "Bangalore",
+      "countryCode": "IN",
+      "region": "Karnataka"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "LSMahesh",
+        "url": ""
+      },
+      {
+        "network": "LinkedIn",
+        "username": "maheshivanna",
+        "url": "https://www.linkedin.com/in/maheshivanna"
+      },
+      {
+        "network": "GitHub",
+        "username": "maheshiv",
+        "url": "https://github.com/maheshiv"
+      },
+      {
+        "network": "Stackoverflow",
+        "username": "maheshiv",
+        "url": "http://stackoverflow.com/users/2494525/maheshiv"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "AfterNow",
+      "position": "Javascript Programmer",
+      "website": "https://www.afternow.io/",
+      "startDate": "2013-06-03",
+      "endDate": "",
+      "summary": "AfterNow company uses latest technologies AR/VR/MR, IOT, Javascript. They do both service and product development. They have Microsoft, Hyperlense, Disney, YogaGlo clients. ",
+      "highlights": [
+        "Implemented adaptive streaming into the video player and wrote script to transcode videos",
+        "Solved many technical issues and improved performance of the application"
+      ]
+    },
+    {
+      "company": "Myshore IT Solutions",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2010-10-14",
+      "endDate": "2013-05-01",
+      "summary": "It's a service based startup with good working environment. They do both web and mobile projects, mainly they work on e-governance projects. It's now closed due to some management conflicts.",
+      "highlights": [
+        "Worked as an full stack developer , involved in end to end application development",
+        "Lent a hand in other projects for writing procedures, fixing backend and front end issues"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "AfterNow",
+    "position": "Full-Stack Javascript Programmer",
+    "website": "https://teachertraining.yogaglo.com",
+    "startDate": "2014-06-01",
+    "endDate": "2015-10-01",
+    "summary": "It is an online platform to teach yoga for those who want to become yoga teachers, for all devices. Worked on integrating cuepoints, markers to the video player, file-upload, discussion, assignment, quiz, dashboard etc.",
+    "highlights": [
+      "Used best technologies",
+      "Worked from scratch, fixed many performance issues."
+    ]
+  }, {
+    "organization": "AfterNow",
+    "position": "Full-Stack Javascript Programmer",
+    "website": "",
+    "startDate": "2016-01-01",
+    "endDate": "2016-10-11",
+    "summary": "This e-governance mobile project mainly deals with reporting and resolving grievances in Users locality. It is map based application where user can upvote and share the grievance. Currently it is in beta stage.",
+    "highlights": [
+      "Worked from scratch. Used React-Native, HAPIJS.",
+      "Did 80% of the work from DB design to app development"
+    ]
+  }, {
+    "organization": "Myshore IT Solutions",
+    "position": "Full-Stack Developer",
+    "website": "FendMe",
+    "startDate": "2011-10-01",
+    "endDate": "2012-02-03",
+    "summary": "It is an chat application for android, ios, windows devices. I was involved in the complete application development.",
+    "highlights": [
+      "It is an hybrib mobile app. Technology used for this app Phonegap, Jquery-Mobile, MySql, HTML5, CSS3, Javascript, PHP",
+      "Worked mainly on the DB and PHP"
+    ]
+  }, {
+    "organization": "Myshore IT Solutions",
+    "position": "Full-Stack Developer",
+    "website": "Issue Tracking System ",
+    "startDate": "2011-02-01",
+    "endDate": "2011-08-03",
+    "summary": "It is an internal e-governance issue tracking application for Nemmadi kiosks. Worked on designing database, UI templates etc. Helped in solving UI issues .",
+    "highlights": [
+      "Technologies used for this application Javascript, HTML5, CSS3, My-SQL, PHP, jQuery",
+      "Worked on DB and front end"
+    ]
+  }],
+  "education": [
+    {
+      "institution": "Visvesvaraya Technological University",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2006-08-01",
+      "endDate": "2010-06-01",
+      "gpa": "7.6",
+      "courses": [
+
+      ]
+    }
+  ],
+  "awards": [
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "NodeJS",
+        "MySQL",
+        "MongoDB",
+        "EmberJS",
+        "ReactJS",
+        "React-Native"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Intermediate speaker"
+    },
+    {
+      "language": "Kannada",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Software",
+      "keywords": [
+        "Javascript", "Websockets", "NodeJS", "ES6", "WebGL", "Machine learning", "Virtual reality", "React-native", "Evolving technologies", "Current affairs"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Santhosh Vittal",
+      "reference": "Known Mahesh as a colleague for 6+ years and worked with him on number of projects, so i would i consider myself a good candidate to recommend him. Never seen him refuse help to anyone, hard-worker, driven, and gets the job done . Uplifts a team with his jovial and easy going attitude. I would highly recommend him and comes as a useful asset."
+    }
+  ]
+}
