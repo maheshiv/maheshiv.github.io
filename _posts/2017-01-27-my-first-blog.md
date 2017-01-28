@@ -24,7 +24,7 @@ This blog includes how I did an app using React-Native and steps I followed to d
 >> Then I picked React-Native and checked the [difference][difference] with ReactJS. I have seen many youtube videos & blogs to understand react-native.  
 
   >> Important things to remember on React-native  
-     It is purely a javascript framework, when we build the project(es6/es7 will be converted to es5), UI components will be converted to native code and other Javascript code will run on the device javascript core (I can select the build platform). [More Info][more-info]  
+     It is purely a javascript framework, when we build the project(es6/es7 will be converted to es5), UI components will be converted to native code and other Javascript code will run on the device javascript core (We can select any build platform). [More Info][more-info]  
      We use `View`, `Text` in place of block and inline elements.  
      We can use condition Platform.OS to identify whether IOS/Android.   
 
@@ -33,8 +33,8 @@ This blog includes how I did an app using React-Native and steps I followed to d
 
 >> I learned [Immutable JS][immutable-js] map, setIn, getIn, Record, List etc. As the name suggests it is immutable means we cannot update  existing arrays, objects instead it will create new one on every property/value change.
 
->> Redux uses single state object through out the app. When we want to do any modification on any property, we take the existing object, create the new state and add the new properties.  
->> Every-time we return new state on any property changes.
+>> Redux uses single state object through out the app. When we want to do any modification on any properties, we take the existing object, create the new state and add the new properties.  
+>> Every-time ImmutableJS returns new state on any property changes.
 
 >> Tips from my experience,  
    >> Extend React.Component instead of React.createClass  
