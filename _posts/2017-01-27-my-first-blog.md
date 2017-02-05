@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "From zero to React-Native app development"
+title:  "React-Native app development"
 categories: React-Native
 excerpt: 'Hello, This is my first blog on React-Native. Click on the header to know how I created a mobile app. Feel free to add any inputs.'
 ---

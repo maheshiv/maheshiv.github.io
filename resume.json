@@ -51,7 +51,7 @@
       "endDate": "2013-05-01",
       "summary": "It is a service based startup with good working environment. We did both web and mobile applications using open source languages like PHP, Javascript, HTML5, CSS3, JQuery, NODE.JS, Phonegap etc.. It's now closed due to some management conflicts.",
       "highlights": [
-        "Worked as an full stack developer , involved in end to end application development",
+        "Worked as a full stack developer , involved in end to end application development",
         "Lent a hand in other projects for writing procedures, fixing backend and front end issues"
       ]
     }
@@ -62,9 +62,9 @@
     "website": "https://teachertraining.yogaglo.com",
     "startDate": "2014-06-01",
     "endDate": "Present",
-    "summary": "Yoga teacher-training is an online platform to teach yoga for those who want to become yoga teachers, for all devices. Worked on integrating cuepoints, markers to the video player, file-upload, discussion, assignment, quiz, dashboard etc.",
+    "summary": "Yoga teacher-training is an online platform to teach yoga for those who want to become yoga teachers, for all devices.",
     "highlights": [
-      "Used EmberJS, ExpressJS, Sequelize, MySQL",
+      "Worked on integrating cuepoints, markers to the video player, file-upload, discussion, assignment, quiz, dashboard etc.",
       "Worked from scratch, fixed many performance issues."
     ]
   }, {
@@ -75,7 +75,7 @@
     "endDate": "",
     "summary": "Grievances is an e-governance mobile project mainly deals with reporting and resolving grievances in Users locality. It is map based application where user can upvote and share the grievance. Currently it is in beta stage.",
     "highlights": [
-      "Worked from scratch. Used React-Native, HAPIJS.",
+      "Worked from scratch. Used React-Native, React-Redux, HAPIJS",
       "Did 80% of the work from DB design to app development"
     ]
   }, {
