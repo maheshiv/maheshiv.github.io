@@ -1,0 +1,43 @@
+<header class="resume">
+  <section class="site-header">
+    <div class="sticky-nav">
+      <div class="flex-row sp-btn al-ctr">
+        <div class="site-title">
+          <a class="link" href="{{ site.baseurl }}/">{{ site.title }}</a>
+          <sub class="small-txt">Seeker, Writer, Coder...</sub>
+        </div>
+
+          <ul class="social-media-list flex-row">
+            {% if site.linkedin_username %}
+            <li><a target="_blank" href="https://linkedin.com/in/{{ site.linkedin_username }}" class="link icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+            {% endif %}
+            {% if site.github_username %}
+            <li><a target="_blank" href="https://github.com/{{ site.github_username }}" class="link icon fa-github"><span class="label">Github</span></a></li>
+            {% endif %}
+            {% if site.stackoverflow %}
+            <li><a target="_blank" href="http://stackoverflow.com/users/2494525/{{ site.stackoverflow }}" class="link icon fa-stack-overflow"><span class="label">Stackoverflow</span></a></li>
+            {% endif %}
+            {% if site.twitter_username %}
+            <li><a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="link icon fa-twitter"><span class="label">Twitter</span></a></li>
+            {% endif %}
+            {% if site.email %}
+            <li><a href="mailto:{{ site.email }}" class="link icon fa-envelope-o"><span class="label">Email</span></a></li>
+            {% endif %}
+            {% if site.pinterest_username %}
+            <li><a href="https://pinterest.com/{{ site.pinterest_username }}" class="link icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+            {% endif %}
+            {% if site.flickr_username %}
+            <li><a href="https://www.flickr.com/photos/{{ site.flickr_username }}" class="link icon fa-flickr"><span class="label">Flickr</span></a></li>
+            {% endif %}
+            {% if site.feed_icon %}
+            <li><a href="{{ site.github.url }}/{{ site.feed_icon }}.xml" class="link icon fa-rss"><span class="label">Feed</span></a></li>
+            {% endif %}
+            {% if site.phone_no %}
+            <li><a target="_blank" class="link" href="https://www.truecaller.com/in/{{site.phone_no}}">+91-{{ site.phone_no }}</a></li>
+            {% endif %}
+          </ul>
+
+      </div>
+    </div>
+  </section>
+</header>

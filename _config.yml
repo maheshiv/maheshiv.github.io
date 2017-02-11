@@ -1,11 +1,13 @@
 title: Mahesh Shivanna
 description: >
-  Currently working as a Javascript Programmer for AfterNow.
+  Javascript Programmer
+company: AfterNow
+company_url: http://www.afternow.io
 sass:
   sass_dir: assets/sass
 url: http://maheshiv.github.io
 disqus_shortname: maheshiv
-phone_no: +91-8951152660
+phone_no: 8951152660
 twitter_username: LSMahesh
 linkedin_username: maheshivanna
 cv: maheshivanna
