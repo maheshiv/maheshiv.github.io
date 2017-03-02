@@ -47,10 +47,7 @@ This blog includes how I did an app using React-Native and steps I followed to d
 
 >> For designing components, I looked for existing node modules. I found [native base][native-base] which has many UI components.  
 
->> From my experience, understand the concepts and then start doing.  
-
->> Finally I have to say thanks to my friends Darshan, Santhosh for there valuable suggestions. Without them it could not be possible.
-
+>> From my experience, understand the concepts and then start doing. 
 
 [difference]: https://medium.com/@alexmngn/from-reactjs-to-react-native-what-are-the-main-differences-between-both-d6e8e88ebf24#.ls6zapbqo
 [presentaional-container]: https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.2z07opcjt
