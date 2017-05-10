@@ -7,7 +7,7 @@ sass:
   sass_dir: assets/sass
 url: http://maheshiv.github.io
 disqus_shortname: maheshiv
-phone_no: 8951152660
+phone_no: 8971813389
 twitter_username: LSMahesh
 linkedin_username: maheshivanna
 cv: maheshivanna
@@ -18,7 +18,7 @@ pinterest_username:
 flickr_username:
 github_username:  maheshiv
 feed_icon:
-email: maheshivanna@gmail.com
+email: maheshthecoder@gmail.com
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 5
