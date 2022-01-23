@@ -1,14 +1,14 @@
 title: Mahesh Shivanna
 description: >
-  Javascript Programmer
-company: AfterNow
-company_url: http://www.afternow.io
+  Software Developer
+company: SAP Labs
+company_url: https://www.sap.com/india/about/company/innovation/labs.html
 sass:
   sass_dir: assets/sass
 url: http://maheshiv.github.io
 disqus_shortname: maheshiv
-phone_no: 8971813389
-twitter_username: LSMahesh
+phone_no: 8951152660
+twitter_username: maheshivanna
 linkedin_username: maheshivanna
 cv: maheshivanna
 stackoverflow: maheshiv
@@ -18,7 +18,7 @@ pinterest_username:
 flickr_username:
 github_username:  maheshiv
 feed_icon:
-email: maheshthecoder@gmail.com
+email: maheshivanna@gmail.com
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 5
