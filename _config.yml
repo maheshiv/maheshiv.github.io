@@ -22,3 +22,5 @@ email: maheshivanna@gmail.com
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 5
+
+theme: jekyll-theme-tactile
